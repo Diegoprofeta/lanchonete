@@ -35,7 +35,6 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-size: 'current'
           node-version: 20
           cache: 'npm'
 
@@ -62,4 +61,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
- Envoy
