@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
+    "build:root": "node build-to-root.js",
+    "restore:src": "node restore-src.js",
     "preview": "vite preview",
     "clean": "rm -rf dist docs server.js",
     "lint": "tsc --noEmit"
