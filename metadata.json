@@ -1,0 +1,6 @@
+{
+  "name": "Lanchonete do Bairro",
+  "description": "Cardápio digital interativo com gerador de combos, calculadora de frete e fechamento de pedidos via WhatsApp, otimizado para celulares.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
